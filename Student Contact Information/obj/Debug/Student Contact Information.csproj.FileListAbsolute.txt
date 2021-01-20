@@ -1,0 +1,19 @@
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\Student Contact Information.exe.config
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\Student Contact Information.exe
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\Student Contact Information.pdb
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student Contact Information.csprojAssemblyReference.cache
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student_Contact_Information.Properties.Resources.resources
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student Contact Information.csproj.GenerateResource.cache
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student Contact Information.csproj.CoreCompileInputs.cache
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student Contact Information.exe
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student Contact Information.pdb
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student_Contact_Information.entryform.resources
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student_Contact_Information.mainform.resources
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student_Contact_Information.enterform.resources
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\EntityFramework.dll
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\EntityFramework.xml
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student Contact Information.csproj.CopyComplete
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\studentinfo.mdf
+C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\studentinfo_log.ldf
