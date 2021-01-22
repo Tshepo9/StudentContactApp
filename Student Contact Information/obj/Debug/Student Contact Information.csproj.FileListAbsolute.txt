@@ -15,5 +15,3 @@ C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Co
 C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\EntityFramework.xml
 C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\obj\Debug\Student Contact Information.csproj.CopyComplete
-C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\studentinfo.mdf
-C:\Users\tshepo\Desktop\myC#full projects\Student Contact Information\Student Contact Information\bin\Debug\studentinfo_log.ldf

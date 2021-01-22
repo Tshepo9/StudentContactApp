@@ -19,9 +19,9 @@ namespace Student_Contact_Information
         public string MiddleName { get; set; }
         public string LastName { get; set; }
         public string Course { get; set; }
+        public int LevelOfStudy { get; set; }
         public int Cell { get; set; }
         public string Email { get; set; }
-        public int LevelOfStudy { get; set; }
         public string Address { get; set; }
     }
 }

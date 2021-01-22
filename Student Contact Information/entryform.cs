@@ -25,7 +25,7 @@ namespace Student_Contact_Information
             //cut the entryform
             this.Dispose();
 
-             
+           
 
         }
 
