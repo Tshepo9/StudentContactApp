@@ -25,23 +25,23 @@ namespace Student_Contact_Information
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
 
-            using (var context = new studentinfoEntities())
+            using (var context = new StudentDbEntity())
             {
-               var student = new Student()
-               {
-                   FirstName = firstnametbx.Text,
-                   MiddleName = middlenametbx.Text,
-                   LastName = lastnametbx.Text,
-                   Course = coursetbx.Text,
-                   Cell = int.Parse(celltbx.Text),
-                   Email = emailtbx.Text,
-                   LevelOfStudy =int.Parse(lastnametbx.Text),
-                   Address = addresstbx.Text,
+                var student = new Student();
+
+                student.FirstName = firstnametbx.Text;
+                student.MiddleName = middlenametbx.Text;
+                student.LastName = lastnametbx.Text;
+                student.Course = coursetbx.Text;
+                student.Cell = int.Parse(celltbx.Text);
+                student.Email = emailtbx.Text;
+                student.LevelOfStudy = int.Parse(leveltbx.Text);
+                student.Address = addresstbx.Text;
 
 
-               };
+                
 
-               context.Students.Add(student);
+                context.Students.Add(student);
                context.SaveChanges();
            }
 

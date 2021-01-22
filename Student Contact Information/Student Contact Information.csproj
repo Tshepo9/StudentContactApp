@@ -93,22 +93,22 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs">
-      <DependentUpon>StudentInfoModel.tt</DependentUpon>
+      <DependentUpon>StudentDbModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="StudentInfoModel.Context.cs">
+    <Compile Include="StudentDbModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>StudentInfoModel.Context.tt</DependentUpon>
+      <DependentUpon>StudentDbModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="StudentInfoModel.cs">
+    <Compile Include="StudentDbModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>StudentInfoModel.tt</DependentUpon>
+      <DependentUpon>StudentDbModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="StudentInfoModel.Designer.cs">
+    <Compile Include="StudentDbModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>StudentInfoModel.edmx</DependentUpon>
+      <DependentUpon>StudentDbModel.edmx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="entryform.resx">
       <DependentUpon>entryform.cs</DependentUpon>
@@ -139,12 +139,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EntityDeploy Include="StudentInfoModel.edmx">
+    <EntityDeploy Include="StudentDbModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>StudentInfoModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>StudentDbModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="StudentInfoModel.edmx.diagram">
-      <DependentUpon>StudentInfoModel.edmx</DependentUpon>
+    <None Include="StudentDbModel.edmx.diagram">
+      <DependentUpon>StudentDbModel.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -169,22 +169,16 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="studentinfo.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="StudentInfoModel.Context.tt">
+    <Content Include="StudentDbModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>StudentInfoModel.Context.cs</LastGenOutput>
-      <DependentUpon>StudentInfoModel.edmx</DependentUpon>
+      <LastGenOutput>StudentDbModel.Context.cs</LastGenOutput>
+      <DependentUpon>StudentDbModel.edmx</DependentUpon>
     </Content>
-    <Content Include="StudentInfoModel.tt">
+    <Content Include="StudentDbModel.edmx.sql" />
+    <Content Include="StudentDbModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>StudentInfoModel.edmx</DependentUpon>
-      <LastGenOutput>StudentInfoModel.cs</LastGenOutput>
-    </Content>
-    <Content Include="studentinfo_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>studentinfo.mdf</DependentUpon>
+      <LastGenOutput>StudentDbModel.cs</LastGenOutput>
+      <DependentUpon>StudentDbModel.edmx</DependentUpon>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
