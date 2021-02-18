@@ -71,6 +71,8 @@
             this.Controls.Add(this.flowLayout);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "veiwform";
+            this.ShowIcon = false;
+            this.Text = " ";
             this.Load += new System.EventHandler(this.veiwform_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
