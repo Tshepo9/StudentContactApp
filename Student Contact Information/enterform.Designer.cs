@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.colorpnl3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,13 +49,13 @@
             this.middlenametbx = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // panel1
+            // colorpnl3
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkRed;
-            this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(44, 481);
-            this.panel1.TabIndex = 0;
+            this.colorpnl3.BackColor = System.Drawing.Color.DarkRed;
+            this.colorpnl3.Location = new System.Drawing.Point(1, 1);
+            this.colorpnl3.Name = "colorpnl3";
+            this.colorpnl3.Size = new System.Drawing.Size(61, 481);
+            this.colorpnl3.TabIndex = 0;
             // 
             // label1
             // 
@@ -258,7 +258,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.colorpnl3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "enterform";
             this.Load += new System.EventHandler(this.enterform_Load);
@@ -269,7 +269,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel colorpnl3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

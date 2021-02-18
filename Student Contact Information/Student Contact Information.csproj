@@ -110,6 +110,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StudentDbModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="StudentInfo.cs" />
+    <Compile Include="veiwform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="veiwform.Designer.cs">
+      <DependentUpon>veiwform.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="entryform.resx">
       <DependentUpon>entryform.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +136,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="veiwform.resx">
+      <DependentUpon>veiwform.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
