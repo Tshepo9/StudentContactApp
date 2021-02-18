@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform));
             this.searchbarRtb = new System.Windows.Forms.RichTextBox();
             this.logopicbox = new System.Windows.Forms.PictureBox();
             this.colorpnl2 = new System.Windows.Forms.Panel();
@@ -52,6 +53,7 @@
             this.searchbarRtb.Location = new System.Drawing.Point(238, 101);
             this.searchbarRtb.Multiline = false;
             this.searchbarRtb.Name = "searchbarRtb";
+            this.searchbarRtb.ReadOnly = true;
             this.searchbarRtb.Size = new System.Drawing.Size(437, 45);
             this.searchbarRtb.TabIndex = 0;
             this.searchbarRtb.Text = " ";
@@ -86,7 +88,6 @@
             this.searchbtn.Name = "searchbtn";
             this.searchbtn.Size = new System.Drawing.Size(104, 45);
             this.searchbtn.TabIndex = 3;
-            this.searchbtn.Text = "Search";
             this.searchbtn.UseVisualStyleBackColor = false;
             // 
             // panelview
@@ -184,17 +185,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(819, 498);
+            this.ClientSize = new System.Drawing.Size(828, 502);
             this.Controls.Add(this.panelenter);
             this.Controls.Add(this.searchbtn);
             this.Controls.Add(this.colorpnl2);
             this.Controls.Add(this.logopicbox);
             this.Controls.Add(this.searchbarRtb);
             this.Controls.Add(this.panelview);
+            this.Font = new System.Drawing.Font("Rockwell", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainform";
-            this.Text = "main";
+            this.Text = "Student info App";
             this.Load += new System.EventHandler(this.mainform_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logopicbox)).EndInit();
             this.panelview.ResumeLayout(false);
