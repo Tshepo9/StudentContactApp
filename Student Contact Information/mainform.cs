@@ -27,5 +27,12 @@ namespace Student_Contact_Information
             enterform instace_of_enterform = new enterform();
             instace_of_enterform.Show();
         }
+
+        private void panelview_MouseClick(object sender, MouseEventArgs e)
+        {
+            veiwform viewinstance = new veiwform();
+            viewinstance.Show();
+
+        }
     }
 }

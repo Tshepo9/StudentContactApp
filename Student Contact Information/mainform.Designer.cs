@@ -99,6 +99,7 @@
             this.panelview.Name = "panelview";
             this.panelview.Size = new System.Drawing.Size(200, 272);
             this.panelview.TabIndex = 5;
+            this.panelview.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelview_MouseClick);
             // 
             // label1
             // 
